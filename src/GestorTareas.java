@@ -4,10 +4,10 @@ import java.util.List;
 public class GestorTareas {
     // Atributos Lista de tareas
 
-    private ArrayListList<Tarea> Listatareas;
+    private ArrayList<Tarea> Listatareas;
 
     // Constructor de la clase GestorTareas
     public GestorTareas() {
-        this.Listatareas = new ArrayListList<Tarea>();
+        this.Listatareas = new ArrayList<Tarea>();
     }
 }
