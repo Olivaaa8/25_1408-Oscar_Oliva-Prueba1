@@ -47,4 +47,25 @@ public class Tarea {
     public void setCompletada(boolean completada) {
         this.completada = completada;
     }
+
+    // Método para marcar la tarea como completada
+    public void completar() {
+        this.completada = true;
+    }
+
+    // Método para editar la tarea
+    public void editar(String descripcion, String fechalimite, String prioridad, String categoria) {
+        this.descripcion = descripcion;
+        this.fechalimite = fechalimite;
+        this.prioridad = prioridad;
+        this.categoria = categoria;
+    }
+    // Método para mostrar la información de la tarea
+    public void mostrarInformacion() {
+        System.out.println("Descripción: " + descripcion);
+        System.out.println("Fecha Límite: " + fechalimite);
+        System.out.println("Prioridad: " + prioridad);
+        System.out.println("Categoría: " + categoria);
+        System.out.println("Completada: " + (completada ? "Sí" : "No"));
+    }
 }
